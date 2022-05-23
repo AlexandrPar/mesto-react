@@ -9,7 +9,7 @@ function Card(props) {
     return (
         <div className="card">
             <button type="button" aria-label="Удалить" className="card__delete"></button>
-            <img src={props.link} alt={props.name} className="card__image" onClick={handleClick}/>
+            <img src={props.link} alt={props.name} className="card__image" onClick={handleClick} />
             <div className="card__caption">
                 <h2 className="card__name">{props.name}</h2>
                 <div className="card__like-box">
