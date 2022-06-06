@@ -7,4 +7,4 @@
 ### *Будующие изменения:* 
 Доработка модальных окон. Оптимизация.
 ### *Ссылка на проект:* 
-https://github.com/AlexandrPar/mesto-react/
+https://alexandrpar.github.io/mesto-react/
