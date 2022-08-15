@@ -25,6 +25,7 @@ function App() {
             .then(([itemUser, cards]) => {
                 setCurrentUser(itemUser);
                 setCards(cards);
+                console.log(cards);
             })
             .catch((err) => {
                 console.log(`Ошибка получения данных: ${err}`)
